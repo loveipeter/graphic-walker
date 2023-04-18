@@ -19,7 +19,7 @@ if (isConcurrentModeAvailable) {
     }
     // @ts-ignore
     const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
-    root.render(<GraphicWalker themeKey="g2" />);
+    root.render(<GraphicWalker themeKey="dls" />);
 } else {
     ReactDOM.render(
         <React.StrictMode>

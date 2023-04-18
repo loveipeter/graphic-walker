@@ -221,5 +221,5 @@ export enum ISegmentKey {
     data = 'data',
 }
 
-export type IThemeKey = 'vega' | 'g2';
+export type IThemeKey = 'vega' | 'g2' | 'dls';
 export type IDarkMode = 'media' | 'light' | 'dark';

@@ -130,7 +130,25 @@ export const AntVTheme = {
     },
 } as const;
 
+export const PhilipsTheme = {
+    light: {
+        background: "transparent",
+        range: {
+            category: [
+               "#BA4C1E",
+               "#F2C544",
+               "#FDF5D7",
+               "#7CC0D9",
+               "#1B578E"
+            ],
+        }
+    },
+    dark: DARK_COMMON_DESIGN,
+
+}
+
 export const builtInThemes: { [themeKey: string]: { light: any; dark: any; } } = {
     vega: VegaTheme,
     g2: AntVTheme,
+    dls: PhilipsTheme
 };

@@ -8,8 +8,8 @@ export const DemoDataAssets = process.env.NODE_ENV === 'production' ? {
     TITANIC: 'https://chspace.oss-cn-hongkong.aliyuncs.com/api/ds-titanic-service.json',
     KELPER: 'https://chspace.oss-cn-hongkong.aliyuncs.com/api/ds-kelper-service.json',
 } : {
-    // CARS: "https://chspace.oss-cn-hongkong.aliyuncs.com/api/ds-cars-service.json",
-    CARS: "/datasets/ds-cars-service.json",
+    CARS: "https://chspace.oss-cn-hongkong.aliyuncs.com/api/ds-cars-service.json",
+    // CARS: "/datasets/ds-cars-service.json",
     // STUDENTS: "https://chspace.oss-cn-hongkong.aliyuncs.com/datasets/ds-students-service.json",
     STUDENTS: "/datasets/ds-students-service.json",
     BTC_GOLD: "/datasets/ds_btc_gold_service.json",
